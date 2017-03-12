@@ -1,6 +1,13 @@
 package Exercícios;
 
 public abstract class Poligono extends Figura {
+	double base;
+	double altura;
+	
+	public Poligono(double base, double altura){
+		this.base = base;
+		this.altura = altura;
+	}
 	
 	public double getBase() {
 		return base;
@@ -18,12 +25,14 @@ public abstract class Poligono extends Figura {
 		this.altura = altura;
 	}
 
-	double base;
-	double altura;
-	
 	@Override    
 	  public double area(){
 		  return this.area();
+	  }
+	
+	@Override    
+	  public double perimetro(){
+		  return this.perimetro();
 	  }
 
 }

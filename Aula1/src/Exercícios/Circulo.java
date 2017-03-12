@@ -6,5 +6,10 @@ public class Circulo extends Figura {
 	  public double area(){
 		  return this.area();
 	  }
+	  
+	  @Override    
+	  public double perimetro(){
+		  return this.perimetro();
+	  }
 
 }

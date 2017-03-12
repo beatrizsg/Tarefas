@@ -1,5 +1,5 @@
 package Exercícios;
 
-public class Diagonal {
+public interface Diagonal {
 
 }
